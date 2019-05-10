@@ -29,7 +29,13 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
+# Where things are
+source:       .
+destination:  ./_site
+layouts_dir:      ./_layouts
+paginate:     8
 
 #Nav config
 nav:
