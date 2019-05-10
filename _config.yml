@@ -19,8 +19,20 @@ description: >- # this means to ignore newlines until "baseurl:"
   Inspiration,Complaint,About me.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+feed: /atom.xml
+favicon: http://jekyllrb.com/favicon.png
 twitter_username: jekyllrb
 github_username:  jekyll
+
+
+# Build settings
+markdown: kramdown
+highlighter:  pygments
+theme: minima
+plugins:
+  - jekyll-feed
+
+
 
 #Nav config
 nav:
@@ -34,6 +46,7 @@ nav:
     url: /contact.html
   - text: 友情链接
     url: /links.html
+
 #Author config
 author:
     name: dgstl
@@ -43,13 +56,40 @@ author:
     detailIntro:
       <p>Jekyll 是一个简洁的、特别针对博客平台的 静态网站 生成器。</p>
 
-# Build settings
-markdown: kramdown
-highlighter:  pygments
-theme: minima
-plugins:
-  - jekyll-feed
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-rss
+    url: /atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/pizn
+  - class: icon-renren
+    url: http://renren.com
+  - class: icon-github-alt
+    url: http://github.com/pizn
+  - class: icon-twitter
+    url: http://twitter.com/piznlin
+  - class: icon-google-plus
+    url: http://google.com
 
+
+#Links
+customLinks:
+  - item:
+    - text: dgstl
+      url: https://dgstl.github.io
+    - text: Jekyll
+      url: http://jekyllrb.com
+    - text: Jekyll Theme
+      url: http://www.zhanxin.info/themes.html
+    message: Friends
+  - item:
+    - text: Font Awesome
+      url: http://fortawesome.github.io/Font-Awesome/
+    - text: Google Font
+      url: http://www.google.com/fonts/
+    - text: jQuery
+      url: http://jquery.com/
+    message: 其他相关链接
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
