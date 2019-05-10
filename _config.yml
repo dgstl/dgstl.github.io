@@ -30,7 +30,11 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-
+# Where things are
+source:       .
+destination:  ./_site
+layouts_dir:      ./_layouts
+paginate:     5
 
 #Nav config
 nav:
