@@ -2,7 +2,7 @@
 layout: post
 title: 中文測試
 date: 2019-5-11 13:18:08
-category: “介绍"
+category: "介绍"
 ---
 
 This is a Chinese test post.

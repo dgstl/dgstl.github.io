@@ -6,3 +6,6 @@ category: "主题"
 ---
 
 很久之前就把视觉稿画好了，周末有时间，把它给写了出来。下面介绍下 Kunka 主题。
+
+![avatar](/images/blog.jpg)
+
